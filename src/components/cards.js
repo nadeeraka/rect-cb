@@ -6,7 +6,7 @@ class Cards extends Component {
   };
   onHidden = e => {
     e.preventDefault();
-    this.setState(ps => ({ hidden: !this.state.hidden }));
+    this.setState({ hidden: !this.state.hidden });
   };
   onDelete = (res, dispatch) => {
     dispatch({ type: "DELETE_C", payload: res });
