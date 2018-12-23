@@ -9,6 +9,11 @@ const Reducer = (state, action) => {
         ...state,
         data: state.data.filter(res => res.id !== action.payload)
       };
+    case "ADD_C":
+      return {
+        ...state,
+        data: [action.payload, ...state.data]
+      };
 
     default:
       break;
