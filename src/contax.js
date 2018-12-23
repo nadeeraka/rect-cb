@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+
 const Contax = React.createContext();
 //reducer
 const Reducer = (state, action) => {

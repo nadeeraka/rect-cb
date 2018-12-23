@@ -47,7 +47,7 @@ class Cards extends Component {
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">{this.props.data.email}</h5>
-                      <p className="card-text">kkk</p>
+                      <p className="card-text">{this.props.data.phone}</p>
                     </div>
                     <div className="card-footer text-muted">2 days ago</div>
                   </div>
